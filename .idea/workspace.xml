@@ -45,7 +45,7 @@
       <recent name="C:\Proyecto-Java\designPatterns\src\main\java\factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestBuilder">
+  <component name="RunManager" selected="Application.TestPrototype">
     <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractfactory.TestAbstractFactory" />
       <module name="designPatterns.main" />
@@ -98,14 +98,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prototype.TestPrototype" />
+      <module name="designPatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestAbstractFactory" />
       <item itemvalue="Application.TestBuilder" />
+      <item itemvalue="Application.TestPrototype" />
       <item itemvalue="Application.TestFactory" />
       <item itemvalue="Application.TestFactoryMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPrototype" />
         <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.TestAbstractFactory" />
         <item itemvalue="Application.TestFactoryMethod" />
