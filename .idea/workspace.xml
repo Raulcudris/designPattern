@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,12 +45,16 @@
       <recent name="C:\Proyecto-Java\designPatterns\src\main\java\factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFactoryMethod">
-    <configuration name="RundesignPatterns" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.makia.designPatterns.DesignPatternsApplication" />
+  <component name="RunManager" selected="Application.TestAbstractFactory">
+    <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractfactory.TestAbstractFactory" />
       <module name="designPatterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,8 +85,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TestAbstractFactory" />
+      <item itemvalue="Application.TestFactory" />
+      <item itemvalue="Application.TestFactoryMethod" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAbstractFactory" />
         <item itemvalue="Application.TestFactoryMethod" />
         <item itemvalue="Application.TestFactory" />
       </list>
