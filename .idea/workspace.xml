@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84b95712-4deb-4a13-ad07-0b221ca11e14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/TestAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Zombie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/ZombieAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/TestBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/enemy/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/enemy/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/enemy/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/figther/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/figther/MageFighterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/figther/WarriorFighterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +57,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Proyecto-Java\designPatterns\src\main\java\factorymethod" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bridge.figther" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestAdapter">
-    <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractfactory.TestAbstractFactory" />
+  <component name="RunManager" selected="Application.TestBridge">
+    <configuration name="TestAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.TestAdapter" />
       <module name="designPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractfactory.*" />
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.TestAdapter" />
+    <configuration name="TestBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.TestBridge" />
       <module name="designPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,18 +129,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestAdapter" />
-      <item itemvalue="Application.TestAbstractFactory" />
+      <item itemvalue="Application.TestBridge" />
       <item itemvalue="Application.TestBuilder" />
       <item itemvalue="Application.TestPrototype" />
       <item itemvalue="Application.TestSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBridge" />
         <item itemvalue="Application.TestAdapter" />
         <item itemvalue="Application.TestSingleton" />
         <item itemvalue="Application.TestPrototype" />
         <item itemvalue="Application.TestBuilder" />
-        <item itemvalue="Application.TestAbstractFactory" />
       </list>
     </recent_temporary>
   </component>
