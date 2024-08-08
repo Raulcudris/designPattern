@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84b95712-4deb-4a13-ad07-0b221ca11e14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/BaseItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/TestComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/TestDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/decorator/AssassinEnemyDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/decorator/EnemyDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/decorator/MageEnemyDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/decorator/WarriorEnemyDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/race/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/race/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/race/Orc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +63,7 @@
       <recent name="bridge.figther" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestComposite">
+  <component name="RunManager" selected="Application.TestDecorator">
     <configuration name="TestAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.TestAdapter" />
       <module name="designPatterns.main" />
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototype.TestPrototype" />
+    <configuration name="TestDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.TestDecorator" />
       <module name="designPatterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,16 +133,16 @@
       <item itemvalue="Application.TestAdapter" />
       <item itemvalue="Application.TestBridge" />
       <item itemvalue="Application.TestComposite" />
-      <item itemvalue="Application.TestPrototype" />
+      <item itemvalue="Application.TestDecorator" />
       <item itemvalue="Application.TestSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDecorator" />
         <item itemvalue="Application.TestComposite" />
         <item itemvalue="Application.TestBridge" />
         <item itemvalue="Application.TestAdapter" />
         <item itemvalue="Application.TestSingleton" />
-        <item itemvalue="Application.TestPrototype" />
       </list>
     </recent_temporary>
   </component>
