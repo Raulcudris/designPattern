@@ -18,7 +18,6 @@ public class TestSingleton {
     }
 
     static class RunJoshongo implements Runnable{
-
         @Override
         public void run() {
             Player player = Player.getPlayer("Joshongo");
